@@ -1,5 +1,6 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Привет из Java!" + Greeting.greet("GitHub"));
+        System.out.println(Greeting.greet("World"));          // обычный
+        System.out.println(Greeting.greetColor("GitHub"));   // цветной ✅
     }
 }
